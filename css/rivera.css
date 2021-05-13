@@ -1,4 +1,5 @@
     /* The sidebar menu */
+    @media only screen and (min-width: 800px) {
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 16rem; /* Set the width of the sidebar */
@@ -25,7 +26,15 @@
 .sidenav a:hover {
   color: #f1f1f1;
 }
-        
+.sidenav .height{
+    height: 90%;
+}
+
+.navtop {
+    padding-top: 30px;   
+}
+
+
 .name {
     text-align: right;
 }
@@ -39,12 +48,72 @@
     height: 14rem;
 }
 
-.navig p{
+.navig a{
     padding-left: 10px;
     color: #919191;
     margin-bottom: -3px;
   
 }
+
+.copyright div p{
+    color: #919191 !important;
+    font-size: 85%;
+   text-align: center;
+}
+
+}  
+
+
+@media only screen and (max-width: 800px) {
+    .sidenav {
+        height: 125px; /* Full-height: remove this if you want "auto" height */
+        width: 100%; /* Set the width of the sidebar */
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #ededed; /* Black */
+      /*  overflow-x: hidden;  Disable horizontal scroll */
+       /* padding-top: 40px;
+        margin-left: 5rem; */
+      }
+
+.navtop{
+    padding-top: 20px;
+}
+.navtopsmall{
+    padding-top: 30px;
+}
+.name {
+    text-align: right;
+}
+.name p{
+    font-size: 160%;
+    color: #919191;
+    margin-bottom: -15px;
+    
+}
+.navsmall{
+    border-left: solid 2px #919191;
+    height: 4rem;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.navsmall a{
+    padding: 10px;
+    color: #919191;
+  
+  
+}
+.copyright div p{
+    color: #919191 !important;
+    font-size: 85%;
+   text-align: right;
+   padding-right: 20px;
+}
+}
+
 
 
 
@@ -61,7 +130,7 @@ a.naviglink{
     font-size: 90% !important; 
     margin-bottom: -10px !important;
     color: #919191 !important;
-    margin-left: -20px;
+    margin-left: -10px;
 }
 
 a:hover{
@@ -72,10 +141,8 @@ div a.navdrop{
     font-size: 85%;
     color: #919191 !important;
 }
-.navtop {
-    padding-top: 30px;   
-}
 
+@media only screen and (min-width: 800px) {
 .site-content{
     margin-left: 21rem;
     display: block;
@@ -89,3 +156,20 @@ div a.navdrop{
     display: block;
    
 }
+}
+
+@media only screen and (max-width: 800px) {
+    .site-content{
+       
+        display: block;
+        float: left;
+        
+        background-color: transparent;
+    }
+    
+    .content-area{
+        margin: 5rem;
+        display: block;
+       
+    }
+    }
