@@ -164,6 +164,9 @@ div a.activ{
 }
 }
 
+.content-area div{
+    margin-bottom: 30px;
+}
 @media only screen and (max-width: 800px) {
     .site-content{
        
@@ -199,3 +202,7 @@ div a.activ{
     color: grey;
     text-decoration: underline;
  }
+ 
+ h2, h3, h4, h5{
+    margin-bottom: 20px !important;
+}
