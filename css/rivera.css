@@ -179,7 +179,10 @@ div a.activ{
 }
 
 .content-area{
-    margin: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3.5rem;
     display: block;
    
 }
