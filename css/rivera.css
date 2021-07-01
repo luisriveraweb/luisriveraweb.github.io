@@ -182,7 +182,7 @@ div a.activ{
     margin-bottom: 6rem;
     margin-left: 6rem;
     margin-right: 6rem;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     display: block;
    
 }
@@ -216,6 +216,7 @@ div a.activ{
    
     position: static !important;
 }
+
 
 .site-content a{
    color: black;
