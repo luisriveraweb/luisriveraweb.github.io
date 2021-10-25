@@ -9,7 +9,7 @@ Feldkirchnerstraße 210, 8073 Feldkirchen bei Graz, Österreich
 Copyright für die verwendeten Bilder und Grafiken
 © Luis Rivera
 Copyright für fotografische Aufnahmen
-Luis Rivera, Oskar Stocker, Marco Riebler, 
+Luis Rivera, Oskar Stocker, Marco Riebler
 
 
 Urheberrecht
